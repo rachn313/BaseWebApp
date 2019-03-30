@@ -15,8 +15,18 @@
     This is me testing out a lil html file
   </p>
 
-  <button class="btn btn-default" type="button" onclick="myFunction()">
-    Try it
+  <form action="/action_page.php">
+    First name:<br>
+    <input type="text" name="firstname" value="Mickey">
+    <br>
+    Last name:<br>
+    <input type="text" name="lastname" value="Mouse">
+    <br><br>
+    <input type="submit" value="Submit">
+  </form> 
+
+  <button class="btn btn-default" type="button" onclick="toggleSignIn()" id="signInBtn">
+    Sign In
   </button>
 
   <div id="doge-image"/>
